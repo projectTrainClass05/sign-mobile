@@ -6,13 +6,40 @@
 -->
 <ion-header>
 
-  <ion-navbar>
-    <ion-title no-border></ion-title>
+  <ion-navbar color="primary">
+    <!--<button ion-button menuToggle>
+      <ion-icon name="menu"></ion-icon>
+    </button>-->
+    <ion-title>首页</ion-title>
+    <ion-buttons end>
+      <button ion-button icon-only (click)="toNotice()">
+        <ion-icon name="notifications"></ion-icon>
+      </button>
+    </ion-buttons>
   </ion-navbar>
 
 </ion-header>
 
 
-<ion-content padding>
-
+<ion-content no-padding>
+  <ion-item>
+    <ion-avatar large item-start>
+      <img src="assets/images/avatar.jpg">
+    </ion-avatar>
+    <h2>Name</h2>
+    <p>Number</p>
+  </ion-item>
+  <div text-center style="margin-top: 320px">
+    <img style="max-width: 120px" (click)="toSignin()" src="assets/images/sign.png">
+  </div>
+  <!--<ion-fab center style="position:absolute;
+    z-index: 20;
+    border-top-left-radius: 50%;
+    border-top-right-radius: 50%;">
+    <button center style="round-clip: 64px" ion-fab width="57" height="57" (click)="selectTab()">
+      <ion-label>签到</ion-label>
+      &lt;!&ndash;<ion-icon name="add" role="img" ></ion-icon>&ndash;&gt;
+      &lt;!&ndash; <img role="img" src="自定义图片">&ndash;&gt;
+    </button>
+  </ion-fab>-->
 </ion-content>

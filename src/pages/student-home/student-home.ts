@@ -1,5 +1,7 @@
 import { Component } from '@angular/core';
 import { NavController, NavParams } from 'ionic-angular';
+import {SignInPage} from "../sign-in/sign-in";
+import {NoticeSPage} from "../notice-s/notice-s";
 
 /**
  * Generated class for the StudentHomePage page.
@@ -20,5 +22,10 @@ export class StudentHomePage {
   ionViewDidLoad() {
     console.log('ionViewDidLoad StudentHomePage');
   }
-
+  toSignin(){
+    this.navCtrl.push(SignInPage)
+  }
+  toNotice(){
+    this.navCtrl.push(NoticeSPage)
+  }
 }

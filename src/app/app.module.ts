@@ -14,6 +14,13 @@ import {StudentHomePage} from "../pages/student-home/student-home";
 import {RegisterPage} from "../pages/register/register";
 import {ForgotPasswordPage} from "../pages/forgot-password/forgot-password";
 import {TeacherHomePage} from "../pages/teacher-home/teacher-home";
+import {SignInPage} from "../pages/sign-in/sign-in";
+import {StudentInfPage} from "../pages/student-inf/student-inf";
+import {LeavePage} from "../pages/leave/leave";
+import {NoticeSPage} from "../pages/notice-s/notice-s";
+import {Tabs1Page} from "../pages/tabs1/tabs1";
+import {MyClassPage} from "../pages/my-class/my-class";
+import {AbnormalPage} from "../pages/abnormal/abnormal";
 
 @NgModule({
   declarations: [
@@ -24,7 +31,14 @@ import {TeacherHomePage} from "../pages/teacher-home/teacher-home";
     StudentHomePage,
     RegisterPage,
     ForgotPasswordPage,
-    TeacherHomePage
+    TeacherHomePage,
+    SignInPage,
+    StudentInfPage,
+    LeavePage,
+    NoticeSPage,
+    Tabs1Page,
+    MyClassPage,
+    AbnormalPage
   ],
   imports: [
     BrowserModule,
@@ -39,7 +53,14 @@ import {TeacherHomePage} from "../pages/teacher-home/teacher-home";
     StudentHomePage,
     RegisterPage,
     ForgotPasswordPage,
-    TeacherHomePage
+    TeacherHomePage,
+    SignInPage,
+    StudentInfPage,
+    LeavePage,
+    NoticeSPage,
+    Tabs1Page,
+    MyClassPage,
+    AbnormalPage
   ],
   providers: [
     StatusBar,

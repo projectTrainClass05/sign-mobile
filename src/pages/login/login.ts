@@ -4,6 +4,8 @@ import {StudentHomePage} from "../student-home/student-home";
 import {RegisterPage} from "../register/register";
 import {ForgotPasswordPage} from "../forgot-password/forgot-password";
 import {TeacherHomePage} from "../teacher-home/teacher-home";
+import {ListPage} from "../list/list";
+import {Tabs1Page} from "../tabs1/tabs1";
 
 /**
  * Generated class for the LoginPage page.
@@ -27,7 +29,7 @@ export class LoginPage {
   }
 
   toStudent(){
-    this.navCtrl.push(StudentHomePage)
+    this.navCtrl.push(Tabs1Page)
   }
   toRegister(){
     this.navCtrl.push(RegisterPage)

@@ -14,12 +14,55 @@
 
 
 <ion-content no-padding>
-  <div text-center style="height: 30%">
-    <img class="logo" src="assets/images/register.jpg" alt="">
+  <div text-center>
+    <img class="logo" src="assets/images/Regi.jpg" alt="">
   </div>
-  <ion-grid margin-top>
-    <ion-row>
-
-    </ion-row>
-  </ion-grid>
+  <div style="position: absolute">
+  <ion-list inset>
+    <ion-item>
+      <ion-label>
+        <ion-icon name="contact"></ion-icon>
+        Username
+      </ion-label>
+      <ion-input type="text"></ion-input>
+    </ion-item>
+    <ion-item>
+      <ion-label>
+        <ion-icon name="call"></ion-icon>
+        Cellphone
+      </ion-label>
+      <ion-input type="text"></ion-input>
+      <button ion-button color="primary" item-end>send</button>
+    </ion-item>
+    <ion-item>
+      <ion-label>
+        <ion-icon name="document"></ion-icon>
+        Verification Code
+      </ion-label>
+      <ion-input type="text"></ion-input>
+    </ion-item>
+    <ion-item>
+      <ion-label>
+        <ion-icon name="mail"></ion-icon>
+        Email
+      </ion-label>
+      <ion-input type="text"></ion-input>
+    </ion-item>
+    <ion-item>
+      <ion-label>
+        <ion-icon name="lock"></ion-icon>
+        Password
+      </ion-label>
+      <ion-input type="password"></ion-input>
+    </ion-item>
+    <ion-item>
+      <ion-label>
+        <ion-icon name="refresh"></ion-icon>
+        Confirm Password
+      </ion-label>
+      <ion-input type="password"></ion-input>
+    </ion-item>
+  </ion-list>
+    <button ion-button block color="primary" (click)="toStudent()">REGISTER</button>
+  </div>
 </ion-content>
